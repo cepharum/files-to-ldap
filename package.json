@@ -1,0 +1,19 @@
+{
+  "name": "files-to-ldap",
+  "version": "0.0.1",
+  "description": "exposing file-based user database via LDAP",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_ENV=test && mocha --ui=tdd test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cepharum/files-to-ldap.git"
+  },
+  "author": "Thomas Urban",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cepharum/files-to-ldap/issues"
+  },
+  "homepage": "https://github.com/cepharum/files-to-ldap#readme"
+}
